@@ -3,6 +3,27 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "cSpell.words": [
     "gidden",
-    "tailwindcss"
-  ]
+    "tailwindcss",
+    "zustand"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#725ef3",
+    "activityBar.background": "#725ef3",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#f69788",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#725ef3",
+    "statusBar.background": "#482fef",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#725ef3",
+    "statusBarItem.remoteBackground": "#482fef",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#482fef",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#482fef99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#482fef"
 }
