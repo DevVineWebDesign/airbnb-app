@@ -41,8 +41,8 @@ const SearchModal = () => {
   });
 
   const Map = useMemo(() => dynamic(() => import('../Map'), { 
-    ssr: false 
-  }), [location]);
+    ssr: false, 
+  }), []);
 
   const onBack = useCallback(() => {
     setStep((value) => value - 1);
@@ -175,7 +175,7 @@ const SearchModal = () => {
           }}
           value={bathroomCount}
           title="Bathrooms"
-          subtitle="How many bahtrooms do you need?"
+          subtitle="How many bathrooms do you need?"
         />
       </div>
     )
